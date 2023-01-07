@@ -1,30 +1,53 @@
-//Page background image
-body{
+/*Page background*/
+/* body{
     background: #1E1E1E;
     font-family: 'Times New Roman', serif;
+} */
+
+
+/* MetaLens Logo */
+header img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    
+    width: 135px;
+    height: 112px;
+    
+    background: #DDDDDD;
+    border-radius: 5px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 7;
 }
 
+body{
+    height:100vh;
 
+}
 
-/* Navigation Bar */
-box-sizing: border-box;
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 0px 23px 0px 19px;
-gap: 64px;
-isolation: isolate;
-
-position: absolute;
-height: 118px;
-left: 0px;
-right: 0px;
-top: 0px;
-
-background: #DDDDDD;
-border: 1px solid #000000;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+/*Sign Up Button*/
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 15px;
+    gap: 40px;
+    
+    position: absolute;
+    width: 188px;
+    height: 76px;
+    left: 1459px;
+    top: 713px;
+    
+    background: #2A0ED7;
+    border-radius: 10px;
+  }
