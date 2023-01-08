@@ -13,20 +13,36 @@
 
         <style>
             * {
-              box-sizing: border-box;
+                box-sizing: border-box;
             }
             
             .row {
-              display: flex;
+                display: flex;
             }
             
             /* Create three equal columns that sits next to each other */
             .column {
-              flex: 33.33%;
-              padding: 5px;
-              text-align: center;
-              text-decoration: underline;
+                flex: 33.33%;
+                padding: 5px;
+                text-align: center;
+                text-decoration: underline;
             }
+
+            .button {
+                background-color: white;
+                border: 2px solid black;
+                color: black;
+                padding: 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 3px 2px;
+                cursor: pointer;
+            }
+
+            .button {border-radius: 25px;}
+
         </style>
     </head>
 
@@ -43,6 +59,7 @@
                 </nav>
         </header>
 
+        <!--Sections 17-18-->
         <h1>Compare MetaLens Models</h1>
 
         <section17>
@@ -76,3 +93,39 @@
             </div>
               
         </section17>
+
+        <section18>
+            <!--Specs Comparison Title Divider-->
+            <header>
+                <nav>        
+                    <ul class="nav-links">
+                        <li><h3>Specs Comparison</h3></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="row">
+                <div class="column">
+                  <h4>5.4" Display Lens</h4>
+                  <p>Standard LED Display Screens</p>
+                  <p>Built In HD Camera Lens</p>
+                  <button class="button button">Buy ></button>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                      <h4>5.7" Display Lens</h4>
+                      <p>Next Gen Ultra LED Display Screens</p>
+                      <p>Built In HD Camera Lens</p>
+                      <button class="button button">Buy ></button>
+                    </div>
+
+                <div class="row">
+                    <div class="column">
+                        <h4>6.0" Display Lens</h4>
+                        <p>Liquid Ultra Retina Display Screens</p>
+                        <p>Built In Retina HD Camera Lens</p>
+                        <button class="button button">Buy ></button>
+                    </div>
+    
+        </section18>
