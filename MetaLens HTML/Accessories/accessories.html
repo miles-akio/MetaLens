@@ -9,7 +9,74 @@
 
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" href="about_metalens.css"/>
+        <link rel="stylesheet" href="compare.css"/>
+
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            
+            .row {
+                display: flex;
+            }
+            
+            /* Create three equal columns that sits next to each other */
+            .column {
+                flex: 33.33%;
+                padding: 5px;
+                text-align: center;
+                text-decoration: underline;
+            }
+
+            .button {
+                background-color: white;
+                border: 2px solid black;
+                color: black;
+                padding: 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 3px 2px;
+                cursor: pointer;
+            }
+
+            .button {
+                border-radius: 25px;
+            }
+
+            .button2 {
+                background-color: #2A0ED7;
+                border: 2px solid black;
+                color: black;
+                padding: 1px 15px;
+                text-align: center;
+                text-decoration: none;
+                display: flex;
+                font-size: 16px;
+                margin: 3px 2px;
+                cursor: pointer;        
+                width: 188px;
+                height:76px;        
+                flex-direction: row;
+            }
+
+            .button2 {
+                border-radius: 5px;
+            }
+
+            .avatar {
+                vertical-align: middle;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+
+            .h5 {
+                color: red;
+            }
+
+        </style>
     </head>
 
     <body>
@@ -25,6 +92,7 @@
                 </nav>
         </header>
 
+        <!--Sections 19-20-->
         <section19>
             <header>
                 <nav>        
@@ -33,4 +101,47 @@
                     </ul>
                 </nav>
             </header>
+
+            <h2>Luxurious. Leisure. LenCharge.</h2>
+            <p>Lay to charge wherever you go. Need a quick charge but cant wait all day at an outlet? Don’t worry! Our portable case provides a fast charge as well as mobility.</p>
+            <img src="MetaLens/MetaLens-Images/lencharge-image.jpeg" alt="LensCharge"/>
         </section19>
+
+        <section20>
+            <h2>Featured MetaLens Accessories</h2>
+
+            <div class="row">
+                <div class="column">
+                    <img src="MetaLens/MetaLens Images/lenscharge-image.jpeg" alt="LensCharge" style="width:242px; height:148px; left:282px; top:512px;">
+                </div>
+                <div class="column">
+                    <img src="MetaLens/MetaLens Images/metalens-cleaning-kit-image.jpeg" alt="MetaLens Cleaning Kit" style="width:306px; height:146px; left:739px; top:514px;">
+                </div>
+                <div class="column">
+                    <img src="MetaLens/MetaLens Images/metalens-strap-accessory-image.webp" alt="MetaLens Leather Strap" style="width:183px; height:148px; left:1282px; top:512px;">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                  <h5>New</h5>
+                  <h3>LenCharge</h3>
+                  <p><button class="button button">$119.99</button></p>
+                </div>
+
+            <div class="row">
+                <div class="column">
+                    <h5>New</h5>
+                    <h3>MetaLens Cleaning Kit</h3>
+                    <p><button class="button button">$89.99</button></p>
+                </div>
+
+            <div class="row">
+                <div class="column">
+                    <h5>New</h5>
+                    <h3>MetaLens Leather Strap</h3>
+                    <p><button class="button button">$39.99</button></p>
+                </div>
+        </section20>
+
+        
